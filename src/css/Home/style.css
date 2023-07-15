@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    width: 100%;
+}
+.navbar{
+    width: 100%;   
+    align-items: center;
+    color: white;
+    display: block;   
+}
+.container-img{
+    width:40%;
+    height: 70px;
+}
+.logo-header-initial{    
+    height: 70px;
+}
+
+.dropdown-item{
+    color: white;
+}
+.nav-link-login{   
+  color: white;
+  font-size: 12px;  
+   
+}
+
+.nav-link-logout{
+    color: white; 
+    font-size: 12px;   
+}
+.icono-admin{   
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px; 
+    border-radius: 1.0rem; 
+    background-color: white;  
+}
+.logout-admin{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px; 
+    border-radius: 1.0rem; 
+    background-color: white;  
+}
+.login-admin-icono{
+    display: flex; 
+    flex-wrap: wrap;   
+    align-items: center; 
+    width: 5%;
+    color: white;
+    margin-left: 1000px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+.logout{
+    display: flex; 
+    flex-wrap: wrap;  
+    align-items: center; 
+    width: 5%;
+    color: white;   
+    height: 50px;
+    flex-wrap: wrap;
+}
+.buttons-login{  
+    margin-left: 269px; 
+    margin-top: 10px;
+}
+.form{
+    margin-top: 5px;
+}
+.employed-data{
+    color: red;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.encabezado-login{
+    height: 25px;
+    margin-top: 20px;
+    align-items: center;
+    font-weight: 700;
+}
+.container{
+    width: 30%;
+}
+.register-employees{
+    margin: 10px;
+   font-weight: 700;
+}
+.register-employees-lines{
+    margin: 10px;
+    font-weight: 700; 
+}
+.table td{
+    font-weight: 500;
+    width: 10px;
+    height: auto;
+}
+.form-control{
+  margin-right: 20px; 
+  height: 40px;
+}
+.form-register{
+    margin-left: 10px;   
+}
+.input-group{
+    display: flex;
+    margin-top: 5px;    
+}
+.container-register{
+    width: 60%;
+}
+.container-register-line{
+    width: 45%; 
+}
+.btn{
+    margin: 4px;    
+}
+#btn-register{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    opacity: 1rem;
+}
+#text-nameLine{
+    width: 25%;
+}
+#btn-save{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    position: absolute;
+    margin-left: -80px;
+    opacity: 0;
+}
+#text-amountPeople{
+    width: 15%;    
+}
+#btn-delete-register{
+    font-size: 10px;
+}
+#btn-edit-register{
+    font-size: 10px;
+}
+
+#btn-cancel{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+}
+.input-group-text{height: 40px;
+
+}
+.data-employes{
+    margin-top: 50px;
+}
+.required-field{
+    color: red;
+    font-size: 25px;
+    padding-right: 10px;   
+}
+.select-day-off{
+    font-weight: 600; 
+    margin-top: 15px;
+    color: red;  
+}
+@media screen and (max-width: 750px) {
+    .login{
+        display: flex;                     
+        align-items: center; 
+        width: 25%;       
+        margin-left: 10px;
+        height: 50px;            
+    }   
+    .logout{
+        display: flex;               
+        align-items: center; 
+        width: 25%;       
+        margin-left: 10px;
+        height: 50px;            
+    }
+    .container{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .buttons-login{  
+        margin-left: 160px; 
+        margin-top: 5px;
+       
+    }
+    .container-register{
+        width:100%;
+    } 
+    .form-register{
+        width: 90%;
+    } 
+    #text-name{
+        width: 60%;
+    }
+    #text-lastName{
+        width: 60%;
+        margin-top: 5px;
+    }
+    #addon-wrapping2{
+        border-radius: 0.4rem 0 0 0.4rem;
+        margin-top: 5px;
+    }
+    #btn-register{
+        border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    }
+    #password{
+        margin-top: 5px;       
+    }
+  
+  }
+  
