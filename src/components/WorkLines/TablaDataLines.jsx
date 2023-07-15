@@ -5,9 +5,9 @@ const TablaDataLines = ({data, editData, deleteLine}) => {
       <table class="table table-striped">
         <thead>
         <tr>         
-          <th scope='col'>Id</th>
-          <th scope='col'>Name Line</th>
-          <th scope='col'>Amount Workers</th>         
+          <th scope='col'>Id:</th>
+          <th scope='col'>Name Line:</th>
+          <th scope='col'>Amount Workers:</th>         
         </tr>
         </thead>
         <tbody>         
